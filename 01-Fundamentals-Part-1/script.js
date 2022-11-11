@@ -178,13 +178,33 @@ console.log(birthYear);
 
 // ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-const firstName = `Maria`;
-const age = 19;
-const legalAge = age >= 18;
+// const firstName = `Maria`;
+// const age = 15;
+// const legalAge = age >= 18;
 
-if (legalAge) {
-  console.log(`${firstName} can start driving license!`);
-}
+// if (legalAge) {
+//   console.log(`${firstName} can start driving license!`);
+// } else {
+//   const yearsLeft = 18 - age;
+//   console.log(`Maria is too young, Wait another ${yearsLeft} years`);
+// }
+
+// const birthYear = 2016;
+
+// let century;
+// if (birthYear <= 2000) {
+//   century = 20;
+// } else {
+//   century = 21;
+// }
+// console.log(century);
+
+// Control Structure
+// if(){
+
+// } else {
+
+// }
 
 // const ageOk = 18;
 // const bornYear = 1980;
@@ -208,3 +228,43 @@ if (legalAge) {
 //     alert(`Your delivery ist not ready to delivery`);
 //   }
 // }
+
+// Coding Challenge #2
+
+//TEST DATA1
+// const massMark1 = 78;
+// const heightMark1 = 1.69;
+// const massJohn1 = 92;
+// const heightJohn1 = 1.95;
+
+// const bmiMark1 = massMark1 / heightMark1 ** 2;
+// const bmiJohn1 = massJohn1 / heightJohn1 ** 2;
+// const markHigherBMI1 = bmiMark1 > bmiJohn1;
+
+// console.log(bmiMark1, bmiJohn1, markHigherBMI1);
+
+// if (bmiMark1 > bmiJohn1) {
+//   console.log(`Marks's BMI (${bmiMark1}) is higher than John's (${bmiJohn1}).`);
+// } else {
+//   console.log(`John's BMI (${bmiJohn1}) is higher than Mark's (${bmiMark1}).`);
+// }
+
+// //TEST DATA2
+// const massMark2 = 95;
+// const heightMark2 = 1.88;
+// const massJohn2 = 85;
+// const heightJohn2 = 1.76;
+
+// const bmiMark2 = massMark2 / heightMark2 ** 2;
+// const bmiJohn2 = massJohn2 / heightJohn2 ** 2;
+// const markHigherBMI2 = bmiMark2 > bmiJohn2;
+
+// console.log(bmiMark2, bmiJohn2, markHigherBMI2);
+
+// // ----------------------------------------------------------------------------------------------------------------------------------------------------
+
+//TYPE CONVERSION AND COERCION
+
+const inputYear = "1991";
+console.log(Number(inputYear));
+console.log(Number(inputYear) + 18);

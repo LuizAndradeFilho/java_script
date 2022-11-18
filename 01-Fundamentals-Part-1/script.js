@@ -312,4 +312,6 @@ console.log(birthYear);
 // EQUALITY OPERATORS: == VS. ===
 
 const age = 18;
-if (age === 18) console.log(`You just became an adult!`);
+if (age === 18) console.log(`You just became an adult (strict)!`);
+
+if (age == 18) console.log(`You just became an adult (loose)!`);

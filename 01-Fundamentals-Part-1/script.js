@@ -331,3 +331,18 @@ console.log(birthYear);
 // }
 
 // if (favourite !== 23) console.log(`Why not 23?`);
+
+const hasDriversLicense = true; // A
+const hasGoodVision = true; // B
+console.log(hasDriversLicense && hasGoodVision); // AND
+console.log(hasDriversLicense || hasGoodVision); // OR
+console.log(!hasDriversLicense); // NAO
+console.log(!hasGoodVision);
+
+const shoudDrive = hasDriversLicense && hasGoodVision;
+
+if (shoudDrive) {
+  console.log("Sarah is able to drive!");
+} else {
+  console.log("Someone else shold dribe...");
+}

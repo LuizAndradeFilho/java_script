@@ -380,15 +380,41 @@ const averageKoalas = (109 + 95 + 123) / 3;
 console.log(averageDolphins);
 console.log(averageKoalas);
 
-if (averageDolphins > averageKoalas && averageDolphins >= 100) {
-  console.log("Dolhpins are the champions!");
-} else if (averageKoalas > averageDolphins && averageKoalas >= 100) {
-  console.log("Koalas are the champions");
-} else if (
-  averageDolphins === averageKoalas &&
-  (averageDolphins, averageKoalas) > 100
-) {
-  console.log("Both won the Trophy");
-} else {
-  console.log("No one won the Trophy");
+// if (averageDolphins > averageKoalas && averageDolphins >= 100) {
+//   console.log("Dolhpins are the champions!");
+// } else if (averageKoalas > averageDolphins && averageKoalas >= 100) {
+//   console.log("Koalas are the champions");
+// } else if (
+//   averageDolphins === averageKoalas &&
+//   (averageDolphins, averageKoalas) > 100
+// ) {
+//   console.log("Both won the Trophy");
+// } else {
+//   console.log("No one won the Trophy");
+// }
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
+
+const day = "saturday";
+
+switch (day) {
+  case "monday": // day === 'monday'
+    console.log("Plan course structure");
+    console.log("Go to coding meetup");
+    break;
+  case " tuesday":
+    console.log("Prepare theory videos");
+    break;
+  case "wednesday":
+  case " thursday":
+    console.log("Write code examples");
+  case "friday":
+    console.log("Record Videos");
+    break;
+  case "saturday":
+  case "sunday":
+    console.log("Enjour the weekend");
+    break;
+  default:
+    console.log("Not a valid day!");
 }

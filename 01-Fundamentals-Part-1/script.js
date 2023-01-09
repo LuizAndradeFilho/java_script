@@ -332,17 +332,45 @@ console.log(birthYear);
 
 // if (favourite !== 23) console.log(`Why not 23?`);
 
-const hasDriversLicense = true; // A
-const hasGoodVision = true; // B
-console.log(hasDriversLicense && hasGoodVision); // AND
-console.log(hasDriversLicense || hasGoodVision); // OR
-console.log(!hasDriversLicense); // NAO
-console.log(!hasGoodVision);
+// const hasDriversLicense = true; // A
+// const hasGoodVision = true; // B
+// console.log(hasDriversLicense && hasGoodVision); // AND
+// console.log(hasDriversLicense || hasGoodVision); // OR
+// console.log(!hasDriversLicense); // NAO
+// console.log(!hasGoodVision);
 
-const shoudDrive = hasDriversLicense && hasGoodVision;
+// const shoudDrive = hasDriversLicense && hasGoodVision;
 
-if (shoudDrive) {
-  console.log("Sarah is able to drive!");
-} else {
-  console.log("Someone else shold dribe...");
+// // if (shoudDrive) {
+// //   console.log("Sarah is able to drive!");
+// // } else {
+// //   console.log("Someone else shold dribe...");
+// // }
+
+// const isTired = false; // C
+// console.log(hasDriversLicense && hasGoodVision && isTired);
+
+// if (hasDriversLicense && hasGoodVision && !isTired) {
+//   console.log("Sarah is able to drive!");
+// } else {
+//   console.log("Someone else shold drive...");
+// }
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
+
+// Challenge #3
+
+const averageDolphins = (96 + 108 + 89) / 3;
+const averageKoalas = (88 + 91 + 110) / 3;
+console.log(averageDolphins);
+console.log(averageKoalas);
+
+if (averageDolphins == averageKoalas) {
+  console.log("We need to have another match!");
+}
+if (averageDolphins > averageKoalas) {
+  console.log("Dolhpins are the champions!");
+}
+if (averageDolphins < averageKoalas) {
+  console.log("Koalas are the champions!");
 }

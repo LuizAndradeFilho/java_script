@@ -360,17 +360,35 @@ console.log(birthYear);
 
 // Challenge #3
 
-const averageDolphins = (96 + 108 + 89) / 3;
-const averageKoalas = (88 + 91 + 110) / 3;
+// const averageDolphins = (96 + 108 + 89) / 3;
+// const averageKoalas = (88 + 91 + 110) / 3;
+// console.log(averageDolphins);
+// console.log(averageKoalas);
+
+// if (averageDolphins > averageKoalas) {
+//   console.log("Dolhpins are the champions!");
+// } else if (averageKoalas > averageDolphins) {
+//   console.log("Koalas are the champions");
+// } else if (averageDolphins === averageKoalas) {
+//   console.log("Both won the Trophy");
+// }
+
+// Challenge #3 BONUS 1 AND BONUS 2
+
+const averageDolphins = (97 + 112 + 101) / 3;
+const averageKoalas = (109 + 95 + 123) / 3;
 console.log(averageDolphins);
 console.log(averageKoalas);
 
-if (averageDolphins == averageKoalas) {
-  console.log("We need to have another match!");
-}
-if (averageDolphins > averageKoalas) {
+if (averageDolphins > averageKoalas && averageDolphins >= 100) {
   console.log("Dolhpins are the champions!");
-}
-if (averageDolphins < averageKoalas) {
-  console.log("Koalas are the champions!");
+} else if (averageKoalas > averageDolphins && averageKoalas >= 100) {
+  console.log("Koalas are the champions");
+} else if (
+  averageDolphins === averageKoalas &&
+  (averageDolphins, averageKoalas) > 100
+) {
+  console.log("Both won the Trophy");
+} else {
+  console.log("No one won the Trophy");
 }

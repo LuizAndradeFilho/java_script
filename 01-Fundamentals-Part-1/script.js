@@ -375,10 +375,10 @@ console.log(birthYear);
 
 // Challenge #3 BONUS 1 AND BONUS 2
 
-const averageDolphins = (97 + 112 + 101) / 3;
-const averageKoalas = (109 + 95 + 123) / 3;
-console.log(averageDolphins);
-console.log(averageKoalas);
+// const averageDolphins = (97 + 112 + 101) / 3;
+// const averageKoalas = (109 + 95 + 123) / 3;
+// console.log(averageDolphins);
+// console.log(averageKoalas);
 
 // if (averageDolphins > averageKoalas && averageDolphins >= 100) {
 //   console.log("Dolhpins are the champions!");
@@ -444,6 +444,48 @@ console.log(averageKoalas);
 // ture && false && !false
 
 // DECLARACAOES (STATEMENTS) = Nao produzem valores por si mesmas
-if (23 > 10) {
-  const str = "23 is bigger";
-}
+// if (23 > 10) {
+//   const str = "23 is bigger";
+// }
+
+// console.log(`I'm ${2023 - 1980} years old.`);
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
+
+// const age = 23;
+// age >= 18
+//   ? console.log(`I like to drink wine`)
+//   : console.log(`I like to drink water`);
+
+// const drink = age >= 18 ? `wine` : `water`;
+// console.log(drink);
+
+// let drink2;
+// if (age >= 18) {
+//   drink2 = `wine`;
+// } else {
+//   drink2 = `water`;
+// }
+// console.log(drink2);
+
+// console.log(`I like to drink ${age >= 18 ? `wine` : `water`}`);
+
+// const car = `TCR`;
+// console.log(
+//   `The champions was ${car === `TCR` ? `BRAVA SimRacing` : `Texaco`}`
+// );
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------------
+
+// Challenge #4
+
+const bill = 50;
+const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
+
+console.log(
+  `The bill was ${bill}, the tip was ${tip}, and the toal value is ${
+    bill + tip
+  }`
+);
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------------

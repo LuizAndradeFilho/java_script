@@ -36,3 +36,16 @@
 // const num = Number("23");
 
 // --------------------------------------------
+
+// function calcAge1(birthYear) {
+//   const age = 2023 - birthYear;
+//   return age;
+// }
+
+// or;
+
+function calcAge1(birthYear) {
+  return 2023 - birthYear;
+}
+
+calcAge1(1991);

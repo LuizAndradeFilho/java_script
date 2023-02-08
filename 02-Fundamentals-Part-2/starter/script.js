@@ -68,9 +68,41 @@
 // };
 
 // Arrow Function
-const calAge3 = (birthYear) => 2023 - birthYear;
-const age3 = calAge3(1980);
-console.log(age3);
+// const calAge3 = (birthYear) => 2023 - birthYear;
+// const age3 = calAge3(1980);
+// console.log(age3);
+
+// const yearsuntilRetirement = (birthYear, firstName) => {
+//   const age = 2023 - birthYear;
+//   const retirement = 65 - age;
+//   // return retirement;
+//   return `${firstName} retires in ${retirement} years`;
+// };
+
+// console.log(yearsuntilRetirement(1980, `Luiz`));
+// console.log(yearsuntilRetirement(1984, `Momo`));
+// console.log(yearsuntilRetirement(2016, `Birua`));
+
+// --------------------------------------------
+
+// function cutFruitPiecesApple(fruit) {
+//   return fruit * 10;
+// }
+// function cutFruitPiecesOrange(fruit) {
+//   return fruit * 6;
+// }
+
+// function fruitProcessor(apples, oranges) {
+//   const applePieces = cutFruitPiecesApple(apples);
+//   const orangePieces = cutFruitPiecesOrange(oranges);
+
+//   const juice = `Juice with ${applePieces} piece of apples and ${orangePieces} pieces of oranges`;
+//   return juice;
+// }
+
+// console.log(fruitProcessor(2, 3));
+
+// --------------------------------------------
 
 const yearsuntilRetirement = (birthYear, firstName) => {
   const age = 2023 - birthYear;
@@ -78,9 +110,3 @@ const yearsuntilRetirement = (birthYear, firstName) => {
   // return retirement;
   return `${firstName} retires in ${retirement} years`;
 };
-
-console.log(yearsuntilRetirement(1980, `Luiz`));
-console.log(yearsuntilRetirement(1984, `Momo`));
-console.log(yearsuntilRetirement(2016, `Birua`));
-
-// --------------------------------------------

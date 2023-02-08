@@ -104,9 +104,22 @@
 
 // --------------------------------------------
 
-const yearsuntilRetirement = (birthYear, firstName) => {
-  const age = 2023 - birthYear;
-  const retirement = 65 - age;
-  // return retirement;
-  return `${firstName} retires in ${retirement} years`;
+const calcAge = function (birthYear) {
+  return 2023 - birthYear;
 };
+
+const yearsUntilRetirement = function (birthYear, firstName) {
+  const age = calcAge(birthYear);
+  const retirement = 65 - age;
+
+  if (retirement > 0) {
+    console.log(`${firstName} retires in ${retirement} years`);
+    return retirement;
+  } else {
+    console.log(`${firstName} already retired at least ${-retirement} years`);
+    return -retirement;
+  }
+};
+
+console.log(yearsUntilRetirement(1980, `Luiz`));
+console.log(yearsUntilRetirement(1955, `Mariana`));

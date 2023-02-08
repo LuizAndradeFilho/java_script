@@ -63,10 +63,22 @@
 // --------------------------------------------
 
 //Function Expression
-const calcAge2 = function (birthYear) {
-  return 2023 - birthYear;
-};
+// const calcAge2 = function (birthYear) {
+//   return 2023 - birthYear;
+// };
 
 // Arrow Function
+const calAge3 = (birthYear) => 2023 - birthYear;
+const age3 = calAge3(1980);
+console.log(age3);
 
-const calAge3 = (birthYear) => 2037 - birthYear;
+const yearsuntilRetirement = (birthYear, firstName) => {
+  const age = 2023 - birthYear;
+  const retirement = 65 - age;
+  // return retirement;
+  return `${firstName} retires in ${retirement} years`;
+};
+
+console.log(yearsuntilRetirement(1980, `Luiz`));
+console.log(yearsuntilRetirement(1984, `Momo`));
+console.log(yearsuntilRetirement(2016, `Birua`));
